@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HackersPortal.Contracts\HackersPortal.Contracts.csproj" />
+    <ProjectReference Include="..\HackersPortal.DataAccess\HackersPortal.DataAccess.csproj" />
+    <ProjectReference Include="..\HackersPortal.Infrastructure\HackersPortal.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
